@@ -11,7 +11,7 @@
 ต้องมี Node.js LTS, Git, VS Code (ชุดเดียวกับคาบ 8)
 
 ```bash
-git clone <URL ของ repo นี้> dx212-lab9
+git clone https://github.com/gobelmoo/dx212-lab9.git dx212-lab9
 cd dx212-lab9
 npm install
 npx expo start        # กด w = เว็บ · a = Android Emulator · สแกน QR = Expo Go
@@ -26,7 +26,7 @@ npx expo start        # กด w = เว็บ · a = Android Emulator · ส�
 ใช้แทนขั้น ML8-A ในสไลด์คาบ 10 (`cp -R dx212-lab9 dx212-lab10`):
 
 ```bash
-git clone <URL ของ repo นี้> dx212-lab10
+git clone https://github.com/gobelmoo/dx212-lab9.git dx212-lab10
 cd dx212-lab10
 rm -rf .git && git init       # Windows PowerShell: Remove-Item -Recurse -Force .git
 npm install
